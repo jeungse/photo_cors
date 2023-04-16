@@ -735,7 +735,7 @@
                     console.log(formData);
 
                     $.ajax({
-                        url:'http://saeeun.dothome.co.kr/photo/form_mail_ajax_insert.php', // (2)서버파일 폼데이터를 받는다
+                        url:'https://saeeun.co.kr/photo/form_mail_ajax_insert.php', // (2)서버파일 폼데이터를 받는다
                         type: 'POST',
                         data: formData, // (1)폼데이터를 보낸다.
                         success(result){ // (3)응답 결과 확인
